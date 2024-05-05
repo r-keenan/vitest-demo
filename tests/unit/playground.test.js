@@ -7,7 +7,7 @@ describe("basic math", () => {
     expect(1 + 1).toBe(2);
   });
 
-  describe("evenOrOdd", (number) => {
+  describe("evenOrOdd", () => {
     it("indicates the number is even", () => {
       expect(evenOrOdd(2)).toBe("Even");
     });
